@@ -1,7 +1,7 @@
 body {
     align-items: center;
-    background-color: #333;
-    color: white;
+    background-color: antiquewhite;
+    color: #c12f71;
     display: flex;
     flex-flow: column wrap;
     font-family: Montserrat, sans-serif;
@@ -32,11 +32,11 @@ body {
   
   h1 {
     font-size: 48px;
-    color: #2fc18c;
+    color: #c12f71;
   }
   
   .container li:nth-of-type(1) {
-    background-color: #2fc18c;
+    background-color: #c12f71;
     color: #333;
   }
   
