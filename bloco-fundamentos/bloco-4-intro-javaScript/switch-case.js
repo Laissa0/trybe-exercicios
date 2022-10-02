@@ -1,19 +1,19 @@
-let trafficLigth = "verde";
+let candidata = "ap";
 
-switch (trafficLigth){
-    case "vermelho":
-    console.log("pare");
+switch (candidata){
+    case "aprovada":
+    console.log("Parabens");
     break;
 
-    case "amarelo":
-    console.log("atenção")
+    case "lista":
+    console.log("Vc esta na lista")
     break;
 
-    case "verde":
-    console.log("siga")
+    case "reprovado":
+    console.log("vc foi reprovado")
     break;
 
     default:
-        console.log("valor não identificado");
+        console.log("informação incorreta");
 }
 
