@@ -1,12 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="/home/mint/trybe-curso/trybe-desenvolvimento-web/bloco-fundamentos/bloco-6-resposividade-html-css/dia-2-bibliotecas/style.css">
+
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="bootsstrap-4.5.3-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <h1 class="display-6 text-muted">Formulario</h1>
+    <form action="" method="GET" enctype="multipart/form-data">
+         <div class="form-group">
+            <label for="nome-completo">Nome completo:</label>
+            <input type="text" name="nome" id="nome-completo"
+            placeholder="Digite seu nome" required>
+        </div>
+
+         <div class="form-group">
+            <label for="input-email">E-mail:</label>
+            <input class="form-control" type="email" name="email" id="input-email" 
+            placeholder="Digite seu e-mail" required>
+        </div>
+
+        <div class="form-group">
+            <label for="Estado onde voce mora:"></label>
+            <select class="form-control" name="estado" id="input-estado">
+                <option value="sp">Sao Paulo</option>
+                <option value="ba">Bahia</option>
+                <option value="rj">Rio de Janeiro</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>Selecione sua foto:</p>
+            <input class="form-control btn btn-warning " type="file" name="foto" id="foto-perfil">
+        </div>
+
+        <p>Escreva algo sobre você</p>
+        <textarea class="form-control" name="sobre-mim" id="textarea-1" cols="30" rows="5"></textarea>
+
+        <div class="form-group">
+            <p>Digite sua senha:</p>
+            <label for="input-senha"></label>
+            <input class="form-control" type="password" name="senha" id="input-senha">
+        </div>
+
+        <button type="submit" class="btn btn-sucess">Enviar formulario</button>
+    </form>
     
 </body>
 </html>
